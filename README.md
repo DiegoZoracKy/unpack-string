@@ -26,7 +26,7 @@ const str = 'Can extract (only the content [found {here} within] these parenthes
 {
 	const result = unpackString(str);
 
-	// Guessing openingChar and closingChar
+	// Guessing openingChar and closingChar. "()" in that case.
 	// result === 'only the content [found {here} within] these parentheses'
 }
 
