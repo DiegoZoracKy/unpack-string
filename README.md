@@ -34,7 +34,7 @@ const str = 'Can extract (only the content [found {here} within] these parenthes
 	const openingChar = '[';
 	const result = unpackString(str, openingChar);
 
-	// Guessing closingChar
+	// Guessing closingChar: "]"
 	// result === 'found {here} within'
 }
 
