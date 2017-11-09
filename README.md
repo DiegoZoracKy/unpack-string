@@ -11,6 +11,13 @@ Unpacks the content found within a text, delimited by an opening char and a clos
 ```bash
 npm install unpack-string
 ```
+**CLI**
+```bash
+npm install unpack-string -g
+```
+```bash
+npx unpack-string --help
+```
 
 ## Usage
 

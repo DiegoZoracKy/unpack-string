@@ -1,8 +1,9 @@
 {
   "name": "unpack-string",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Unpacks the content found within a text, delimited by an opening char and a closing char, e.g., 'Can extract (only the content found here within these parentheses)'",
   "main": "lib/unpack-string.js",
+  "bin": "bin/magicli.js",
   "author": {
     "name": "Diego ZoracKy",
     "email": "diego.zoracky@gmail.com",
@@ -21,5 +22,8 @@
   "devDependencies": {
     "chai": "^4.0.0",
     "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "magicli": "0.0.8"
   }
 }
